@@ -7,7 +7,7 @@ function genPass(){
         const lowercaseChars = "abcdefghijklmnopqrstuvwxyz"
         const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         const numberChars = '1234567890'
-        const symbolChars = "!%/=>-_&#@";
+        const symbolChars = "!%/=><,`'.*-_&#@";
         
         let allowedChars = "";
         let password = "";
